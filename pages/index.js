@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -7,7 +6,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Strategy Helper</title>
-        <meta name="description" content="Web app for testing forex strategies" />
+        <meta name="description" content="Strategy Helper is a light weight web app to help you identify your trading strategy faster and with ease" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
